@@ -1,0 +1,22 @@
+{
+  "name": "ai-hub-app",
+  "version": "1.0.0",
+  "description": "An app where you can find all the ai tools",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon src/index.js"
+  },
+  "keywords": [
+    "AI",
+    "backend",
+    "tools",
+    "search"
+  ],
+  "author": "Gungun Jain",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
