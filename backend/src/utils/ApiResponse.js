@@ -5,3 +5,5 @@ class ApiResponse {
         this.message = statusCode < 400
     }
 }
+
+export { ApiResponse }

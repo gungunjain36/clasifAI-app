@@ -5,7 +5,7 @@
 
  const userSchema = new Schema({
     username : {
-        typr: String,
+        type: String,
         required: true,
         unique: true,
         lowercase: true,
@@ -27,9 +27,9 @@
         index: true
     },
 
-    avatar: {
-        type: String,  // cloudnary url
-    },
+    // avatar: {
+    //     type: String,  // cloudnary url
+    // },
     password: {
         type: "String",
         required: true
@@ -49,7 +49,7 @@
     if(!this.isModified("password")){
         return next();
     }
-    this.password = bcrypt.hash(this.password, 10)
+    this.password = await bcrypt.hash(this.password, 10)
     next()
  })
 
