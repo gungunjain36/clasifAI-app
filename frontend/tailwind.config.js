@@ -5,7 +5,9 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      'hero-pattern': "./src/assets/pexels-suzyhazelwood-1629236.jpg",
+    },
   },
   plugins: [],
 }
