@@ -17,6 +17,7 @@ app.use(cookieParser())
 
 import userRouter from "./routes/user.routes.js"
 app.use("/api/v1/users",userRouter);
-
+import searchaitools from "./routes/search.routes.js";
+app.use("/api/v1/search",searchaitools);
 
 export { app }

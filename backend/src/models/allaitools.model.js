@@ -3,7 +3,7 @@ import mongooseAggregatePaginate from "mongoose-aggregate-paginate-v2";
 const allaitools = new Schema({
   AI_Tool_Name: {
     type: String,
-    required: true,
+    // required: true,
   },
   Description: {
     type: String,
@@ -29,6 +29,6 @@ const allaitools = new Schema({
   },
 }, { timestamps: true });
 
-allaitools.plugin(mongooseAggregatePaginate);
-
-module.exports = mongoose.model('AllAITools', allaitools);
+// allaitools.plugin(mongooseAggregatePaginate);
+export const AllAITools = mongoose.model("AllAITools",allaitools)
+// module.exports = mongoose.model('AllAITools', allaitools);
