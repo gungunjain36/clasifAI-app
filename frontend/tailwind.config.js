@@ -6,8 +6,10 @@ export default {
   ],
   theme: {
     extend: {
-      'hero-pattern': "./src/assets/pexels-suzyhazelwood-1629236.jpg",
-    },
+      backgroundImage: {
+        'custom-image': "url('./src/assets/pattern3.jpg')",
+      }
+    }
   },
   plugins: [],
 }
