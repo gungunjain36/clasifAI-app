@@ -10,7 +10,7 @@ function NavBar() {
             <img className="h-14 w-14" src={AiHubLogo} alt="AI Hub Logo" /></a>
           </div>
           <div className="m-2 text-2xl text-orange-200 font-semibold font-mono gradient-text">
-            <a href="#">AiHub</a>
+            <a href="#">ClassifAI</a>
           </div>
           <div className="grid place-content-center ml-auto mr-8 h-10 w-10 rounded-full border-4 border-black bg-pink-300 m-3 shadow-md">
             <img className="h-8 w-8" src={userProfile} />

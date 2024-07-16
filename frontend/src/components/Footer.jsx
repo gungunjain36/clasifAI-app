@@ -4,7 +4,7 @@ import twitter from "../assets/x-twitter.svg";
 import linkedin from "../assets/linkedin.svg";
 function Footer(){
     function githubLink(){
-        window.location.href="https://github.com/gungunjain36/ai-hub-app";
+        window.location.href="https://github.com/gungunjain36/clasifAI-app";
     }
     function reportBug(){
         window.location.href="https://github.com/gungunjain36/ai-hub-app/issues";
