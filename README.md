@@ -27,8 +27,7 @@ ClassifAI is a web application designed to provide users with a comprehensive li
 ![Screenshot 2024-07-16 210317](https://github.com/user-attachments/assets/c722b86e-ed0f-40bc-a94f-7d22ad020922)
 ![Screenshot 2024-07-16 210330](https://github.com/user-attachments/assets/8df3157b-7850-4f22-b365-e8e0a076c9c2)
 
-## Getting Started![Screenshot 2024-07-16 210341](https://github.com/user-attachments/assets/d4ed52cf-aa79-4f05-9fbc-b9fd181693d1)
-
+## Getting Started!
 
 To get a local copy up and running follow these simple steps:
 
