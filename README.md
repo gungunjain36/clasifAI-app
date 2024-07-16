@@ -2,6 +2,7 @@
 
 Welcome to ClassifAI! This project helps users find AI tools based on specific criteria.
 
+![Screenshot 2024-07-16 210243](https://github.com/user-attachments/assets/a1620d49-0222-4e88-8e9a-3b6f95984589)
 
 ## Overview
 
@@ -17,12 +18,17 @@ ClassifAI is a web application designed to provide users with a comprehensive li
 ## Screenshots
 
 
+![Screenshot 2024-07-16 210251](https://github.com/user-attachments/assets/be7cdc70-b074-41a7-83c5-ee8daba19c53)
 *Homepage: Welcome screen where users can start their search.*
 
+![Screenshot 2024-07-16 210306](https://github.com/user-attachments/assets/bbd70ed1-1159-4541-a892-b84cbe0a8e16)
 
 *Search Results: Display of AI tools based on search criteria.*
+![Screenshot 2024-07-16 210317](https://github.com/user-attachments/assets/c722b86e-ed0f-40bc-a94f-7d22ad020922)
+![Screenshot 2024-07-16 210330](https://github.com/user-attachments/assets/8df3157b-7850-4f22-b365-e8e0a076c9c2)
 
-## Getting Started
+## Getting Started![Screenshot 2024-07-16 210341](https://github.com/user-attachments/assets/d4ed52cf-aa79-4f05-9fbc-b9fd181693d1)
+
 
 To get a local copy up and running follow these simple steps:
 
@@ -33,11 +39,8 @@ To get a local copy up and running follow these simple steps:
 
 ### Installation
 
-1. Clone the repo
+Clone the repo
    ```sh
    git clone https://github.com/your_username/ClassifAI.git
-2. Navigate to the project directory
-    cd ClassifAI
-3. Install NPM packages
-     npm install
+
 
