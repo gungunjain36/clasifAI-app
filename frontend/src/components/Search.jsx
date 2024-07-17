@@ -36,8 +36,8 @@ const Search = () => {
   const handlePriceRangeChange = (event) => setSelectedPriceRange(event.target.value);
 
   const handleSearch = async () => {
-    setLoading(true); // start loading when search begins
-    // Construct the URL with query parameters
+    setLoading(true); 
+    
     let url = 'http://localhost:3000/api/v1/search/?';
     if (selectedCategory) {
       url += `Major_Category=${encodeURIComponent(selectedCategory)}&`;
@@ -46,7 +46,7 @@ const Search = () => {
       url += `Free_Paid_Other=${encodeURIComponent(selectedPriceRange)}`;
     }
 
-    // Fetch data from the backend
+    
     await axios.get(url)
       .then((response) => {
         setAiTools(response.data);
