@@ -50,11 +50,11 @@ const Search = () => {
     await axios.get(url)
       .then((response) => {
         setAiTools(response.data);
-        setLoading(false); // data fetching is complete
+        setLoading(false); 
       })
       .catch((error) => {
         console.log(error);
-        setLoading(false); // data fetching failed
+        setLoading(false);
       });
   };
 
